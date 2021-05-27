@@ -1,6 +1,6 @@
 import { API } from "../../backend";
 import { cartEmpty } from "../../core/helper/cartHelper";
-
+//signuup
 export const signup = (user) => {
   return fetch(`${API}user/`, {
     method: "POST",
